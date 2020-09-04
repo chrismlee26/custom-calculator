@@ -14,13 +14,13 @@ def pan_egg_ratio(num_eggs):
     pan_size = 12
   return pan_size
 
-#pan_size = int(num_eggs) * 3    <---- backup code incase failed function above, no longer needed but I like it
+#pan_size = int(num_eggs) * 3    <---- backup code incase failed function above, no longer needed but good to have for reasons
 
 while omelette_type != "french":
  omelette_type = input("Nobody likes American omelettes try \"french\" ")
 
 num_eggs = input("Ok, 2 or 3 or 4 eggs? ")
-print(f"Ok calculating for {num_eggs} eggs")    #Kind of a redundant line but its kind of cute
+print(f"Ok calculating for {num_eggs} eggs")    #Kind of a redundant line but it's kind of cute </3
 
 pan_size = pan_egg_ratio(num_eggs)
 
